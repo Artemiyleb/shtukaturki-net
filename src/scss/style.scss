@@ -1,0 +1,25 @@
+// Global SCSS-files imports
+@import './vars';
+@import './mixin';
+@import './reset';
+@import './global';
+
+// Sections or Pages SCSS-files imports
+@import './header';
+@import './home';
+@import './slider';
+@import './count';
+@import './benefits';
+@import './video-review';
+@import './compare';
+@import './ourwork';
+@import './consult';
+@import './materials';
+@import './process';
+// @import './footer';
+
+// Libs
+@import './libs/swiper';
+@import './../../node_modules/@splidejs/splide/src/css/themes/default/index';
+
+

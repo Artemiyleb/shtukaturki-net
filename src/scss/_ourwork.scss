@@ -1,0 +1,57 @@
+.ourwork {
+	margin-top: 120px;
+	margin-bottom: 140px;
+}
+
+.ourwork__description {
+	margin-bottom: 82px;
+}
+
+.splide {
+	max-width: 960px;
+}
+
+.splide__slide {
+
+	img {
+		width: 100%;
+	border-radius: 20px;
+	}
+}
+
+.thumbnails {
+  display: flex;
+  padding-top: clamp(0.625rem, 0.398rem + 1.14vw, 1.25rem);
+  justify-content: start;
+}
+
+.thumbnail {
+  width: clamp(3.75rem, 2.841rem + 4.55vw, 6.25rem);
+  height: clamp(3.75rem, 2.841rem + 4.55vw, 6.25rem);
+	border-radius: 10px;
+  overflow: hidden;
+  list-style: none;
+  margin: 0;
+	margin-right: clamp(0.625rem, 0.398rem + 1.14vw, 1.25rem);
+  cursor: pointer;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: auto;
+}
+
+.splide__arrow {
+	background: #254152 !important;
+}
+
+.splide__arrow--prev,
+.splide__arrow--next {
+	background: #254152 !important;
+	width: 40px !important;
+	height: 40px !important;
+
+	svg {
+		fill: white !important;
+}
+}
